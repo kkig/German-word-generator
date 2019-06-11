@@ -1,0 +1,59 @@
+body {
+  color: #333333;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.jumbotron {
+  min-height: 50rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  animation: fadeIn 2s 0s 1 normal;
+}
+
+.bgGreen {
+  background-color: #BDE9C9;
+}
+
+.bgRed {
+  background-color: #FFB1BB;
+}
+
+.bgBlue {
+  background-color: #92C1E9;
+}
+
+.btn-outline-primary {
+  min-width: 100px;
+}
+
+.word {
+  font-weight: 300;
+  font-size: 9rem;
+  animation: fadeIn 2s 0s 1 normal;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+wrapper {
+  padding: 10% 20%;
+}
+button {
+  padding: 5px 10px;
+}
+wrapper {
+  padding: 0 20%;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
